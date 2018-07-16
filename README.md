@@ -1,81 +1,23 @@
-<<<<<<< HEAD
-# [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
+# Data Science Portfolio
+Repository containing portfolio of data science projects completed by me, self learning, and hobby purposes. Presented in the form of Jupyter Notebooks.
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+## Contents
 
-## Preview
+- ### Machine Learning
 
-[![Freelancer Preview](https://startbootstrap.com/assets/img/templates/freelancer.jpg)](https://blackrockdigital.github.io/startbootstrap-freelancer/)
+	- [SIMPLE NEURAL NETWORK WITH GRADIENT DESCENT](https://github.com/pars3c/model_weight_improvement_1): A model made to find a way to get to the corresponded value feeded to it
+	- [SPAM OR HAM DETECTION](https://github.com/pars3c/naive-bayes-spam-or-ham/blob/master/Naive%20Bayes%20Spam%20or%20Ham.ipynb): Naive Bayes model made to predict wether an email is a spam or not.
+	- [IRIS LOGISTIC REGRESSION](https://github.com/pars3c/logistic-regression-formula-basics/blob/master/Logistic%20Regression%20Formula%20Train.ipynb): Analyzing a dataset containing data of the Iris specimen and using the most basic foundation of Logistic Regression to Classify which flower it is based on its sepal length, sepal width, petal length and petal width.
+	- [SOCCER RESULTS PREDICTION](https://github.com/pars3c/soccer_bets/blob/master/Soccer.ipynb): A project still in progress, the objective is to use find a model that predicts the result with a good accuracy.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-freelancer/)**
+	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Numpy, Seaborn 
 
-## Status
+- ### Data Manipulation and Visualization: 
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-freelancer/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer?type=dev)
+	- [COUNTRY HAPPINESS ANALYSIS](https://github.com/pars3c/countries-happiness/blob/master/Happiness.ipynb): Going through the data of many different Countries to find which is the happiest and why. While I go through it, I also try to find, what makes a Country have confidence in its Government
+	- [USA CRIMINAL RECORDS](https://github.com/pars3c/datacamp-exercises/blob/master/data-manipulation/data-manipulation.ipynb): In this FBI dataset from 2013, I iterate data manipulation and visualization to find where in the United States of America is each type crime more predominant.
+	- [EXPLORING 67 YEARS OF LEGO (DATACAMP EXERCISE)](https://github.com/pars3c/datacamp-exercises/blob/master/Exploring-67-years-of-LEGO/notebook.ipynb): Using two datasets that go back 67 years, to track the changes in Lego themes, colors and the change in the ammount of different toys produced as well as when, all those changes started to really happen.
+	- [EXPLORING HOSPITALS HANDWASHING DATA FROM 1818 (DATACAMP EXERCISE)]https://github.com/pars3c/datacamp-exercises/blob/master/semmelweis-handwashing-exercise/semmelweis_handwashing.ipynb): An analysis on how data science can be massive help, when we have life and death situtations. In this case Dr. Ignaz Semmelweis a Hungarian physician born in 1818 gathered data on childbed fever. A deadly disease affecting women that just have given birth. 
+In the early 1840s at the Vienna General Hospital as many as 10% of the women giving birth would die from it. What we can find is that the contaminated hands of the doctors delivering the babies appear to be the reason for this, To prove this he gathered data from a clinic where doctors would wash their hands, and another one where no washing would happen.
 
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/freelancer/)
-* Install via npm: `npm i startbootstrap-freelancer`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-freelancer)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp sass` compiles SCSS files into CSS
-- `gulp minify-css` minifies the compiled CSS file
-- `gulp minify-js` minifies the themes JS file
-- `gulp copy` copies dependencies from node_modules to the vendor directory
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
-
-## Custom Builds
-
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
-=======
-# My professional Portfolio
-
-Mainly based on data science projects, I try to show what I went through, from Data Visualization, Data Cleaning to Machine Learning.
-
-Some Web Development Projects can be found there as well.
-
-Bioinformatics coming up soon :)
->>>>>>> a7fe1115ddafdbb4724c3900d6dda70ca56f4bab
+If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at aderito_xavier@sapo.pt. 
